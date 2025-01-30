@@ -4,7 +4,7 @@ setup(
     name='LEAP',
     version='0.1',
     packages=find_packages(),
-    install_requires=['numpy', 'pandas', 'matplotlib'],  # Specify dependencies
+    install_requires=['numpy', 'pandas', 'matplotlib', 'seaborn','joblib','sklearn'],  # Specify dependencies
     url='https://github.com/SAIL-UA/LEAP',
     author='Xishi Zhu',
     author_email='xzhu39@crimson.ua.edu',
